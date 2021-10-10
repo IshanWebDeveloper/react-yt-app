@@ -6,7 +6,7 @@ import VideoList from './VideoList';
 
 export default function App() {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [videos, search] = useVideos('aastha gill');
+  const [videos, search] = useVideos('reactjs');
 
   useEffect(() => {
     setSelectedVideo(videos[0]);
