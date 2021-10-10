@@ -11,7 +11,7 @@ export default function SearchBar({ onFormSubmit }) {
     <div className=" search-bar ui segment ">
       <form onSubmit={onSubmit} action="" className="ui form">
         <div className="field">
-          <label htmlFor="video">Video Search</label>
+          <label htmlFor="video">YouTube Video Search</label>
           <input
             type="text"
             name=""
