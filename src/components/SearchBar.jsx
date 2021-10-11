@@ -19,6 +19,7 @@ export default function SearchBar({ onFormSubmit }) {
             autoComplete="off"
             onChange={(event) => setTerm(event.target.value)}
             value={term}
+            placholder="Search Here"
           />
         </div>
       </form>
